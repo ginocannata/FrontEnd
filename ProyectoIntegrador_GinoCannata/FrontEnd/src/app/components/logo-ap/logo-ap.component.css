@@ -15,6 +15,9 @@ img{
 }
 .btn{
     border-width: thin;
+    color: #ccd5ae;
+    font-weight: bold;
+    border-color: #ccd5ae;
 }
 /*--- Para la vista de celular --- */
 @media(max-width: 575px){
