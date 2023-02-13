@@ -10,7 +10,7 @@ import org.hibernate.metamodel.model.convert.spi.JpaAttributeConverter;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IUsuarioRepository extends JpaAttributeConverter<Usuario, Integer> {
+public interface iUsuarioRepository extends JpaAttributeConverter<Usuario, Integer> {
     Optional<Usuario> findByNombreUsuario(String nombreUsuario);
     
     boolean existsByNombreUsuario(String nombreUsuario);
