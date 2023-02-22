@@ -37,11 +37,14 @@ private Set<Rol> roles = new HashSet<>();
     public Usuario() {
     }
 
-    public Usuario(String nombre, String nombreUsuario, String email) {
+    public Usuario(String nombre, String nombreUsuario, String email, String password) {
         this.nombre = nombre;
         this.nombreUsuario = nombreUsuario;
         this.email = email;
+        this.password = password;
     }
+
+    
 //get y set
     public int getId() {
         return id;

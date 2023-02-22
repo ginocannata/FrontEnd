@@ -6,11 +6,11 @@ package com.portfolio.GC.Security.Repository;
 
 import com.portfolio.GC.Security.Entity.Usuario;
 import java.util.Optional;
-import org.hibernate.metamodel.model.convert.spi.JpaAttributeConverter;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface iUsuarioRepository extends JpaAttributeConverter<Usuario, Integer> {
+public interface iUsuarioRepository extends JpaRepository<Usuario, Integer> {
     Optional<Usuario> findByNombreUsuario(String nombreUsuario);
     
     boolean existsByNombreUsuario(String nombreUsuario);
