@@ -1,6 +1,6 @@
 .row{
     padding: 20px;
-    background-color: #fefae0;
+    background-color: white;
     font-weight: bold;
 }
 div{
@@ -8,11 +8,11 @@ div{
     text-align: center;
 }
 p{
-    color: #ccd5ae;
+    color: black;
 
 }
 h1{
-    color: #ccd5ae;
+    color: black;
 }
 /* nombre*/
 #nombre{
@@ -28,7 +28,7 @@ h1{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px #ccd5ae;
+        box-shadow: 3px 3px 3px black;
         left: 3%;
         top: 620px;
     }
@@ -38,7 +38,7 @@ h1{
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px #ccd5ae;
+        box-shadow: 3px 3px 3px black;
         left: 35%;
         top: 620px;
     }
