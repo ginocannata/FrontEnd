@@ -1,46 +1,48 @@
-.row{
+.row {
     padding: 20px;
     background-color: white;
     font-weight: bold;
 }
-div{
-    
+
+div {
+
     text-align: center;
 }
-p{
+
+p {
     color: black;
 
 }
-h1{
+
+h1 {
     color: black;
 }
+
 /* nombre*/
-#nombre{
+#nombre {
     font-weight: bold;
     margin-top: 30%;
 
-  
+
 }
 
 
-@media (min-width : 576px){
-    #fotoperfil{
+@media (min-width : 576px) {
+    #fotoperfil {
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px black;
         left: 3%;
         top: 620px;
     }
 }
-@media (max-width : 575px){
-    #fotoperfil{
+
+@media (max-width : 575px) {
+    #fotoperfil {
         position: absolute;
         width: 30%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px black;
         left: 35%;
         top: 620px;
     }
 }
-

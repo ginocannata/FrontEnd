@@ -15,9 +15,9 @@ img{
 }
 .btn{
     border-width: thin;
-    color: #ccd5ae;
+    color: #0073b1;
     font-weight: bold;
-    border-color: #ccd5ae;
+    border-color: #0073b1;
 }
 /*--- Para la vista de celular --- */
 @media(max-width: 575px){
