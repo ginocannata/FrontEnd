@@ -1,6 +1,10 @@
 <div class="row border border-black border-3 rounded-4">
+    <div class="">
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/2" *ngIf="isLogged">
+            Editar Persona
+        </button>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <img src="../../../assets/guru2.jpg" class="img-thumbnail" id="fotoperfil" alt="">   
+        <img src={{persona.img}} class="img-thumbnail" id="fotoperfil" alt="">   
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
@@ -9,7 +13,7 @@
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8  ">
         <span>
             <h1>Acerca de mi:</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum officia officiis, qui repellendus minima doloremque neque natus modi quia et illum quam sequi tempora, sapiente aliquam hic accusamus quisquam debitis?</p>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
 </div>
