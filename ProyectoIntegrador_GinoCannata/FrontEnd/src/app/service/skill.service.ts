@@ -13,7 +13,7 @@ export class SkillService {
   public lista():Observable<Skills[]>{
     return this.httpClient.get<Skills[]>(this.URL + 'lista');
   }
-  public details(id:number): Observable<Skills>{
+  public detail(id:number): Observable<Skills>{
     return this.httpClient.get<Skills>(this.URL + `details/${id}`);
   }
   public save(skills: Skills):Observable<any>{
