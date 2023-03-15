@@ -16,7 +16,7 @@ export class SProyectosService {
     }
   
     public detail(id:number): Observable<Proyectos>{
-      return this.httpClient.get<Proyectos>(this.URL +`details/${id}`);
+      return this.httpClient.get<Proyectos>(this.URL +`detail/${id}`);
     }
     public save(proyectos: Proyectos): Observable<any>{
       return this.httpClient.post<any>(this.URL + 'create', proyectos);

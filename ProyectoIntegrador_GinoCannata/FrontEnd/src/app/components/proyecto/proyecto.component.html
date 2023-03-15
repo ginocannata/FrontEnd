@@ -14,7 +14,7 @@
                         <h2>{{Proyectos.nombreP}}</h2>
                     </td>
                     <td>{{Proyectos.descripcionP}}</td>
-                    <td><img src={{Proyectos.img}} class="img-thumbnail" id="fotoproyecto" alt="">   </td>
+                    <td><img src="{{Proyectos.img}} "id="fotoproyecto" alt="">   </td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-success" routerLink="/editproye/{{Proyectos.id}}"><i
                                 class="bi bi-pencil-square"></i>EDITAR</button>
