@@ -1,8 +1,5 @@
 <div class="row border border-black border-3 rounded-4">
-    <div class="">
-        <button type="button" class="btn btn-primary" routerLink="/editacercade/2" *ngIf="isLogged">
-            Editar Persona
-        </button>
+    
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <img src={{persona.img}} class="img-thumbnail" id="fotoperfil" alt="">   
     </div>
@@ -16,4 +13,8 @@
             <p>{{persona.descripcion}}</p>
         </span>
     </div>
+    <div class="">
+        <button type="button" class="btn btn-primary" routerLink="/editacercade/2" *ngIf="isLogged">
+            Editar Persona
+        </button>
 </div>
